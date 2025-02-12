@@ -5,7 +5,7 @@ pipeline {
         stage('Clone API Repo') {
             steps {
                 git branch: 'main',
-                url: 'https://github.com/Nattharika-Jeksungnern/sample-api.git'
+                url: 'https://github.com/gridsada14/sdpx-simple-api.git'
             }
         }
 
